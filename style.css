@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+/* 共通 */
+html {
+  font-size: 100%;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+body{
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  width: 58%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #161616;
+}
+
+li{
+  list-style: none;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+/* ヘッダー
+------------------------------- */
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 122px;
+}
+
+.header-left img{
+  width: 120px;
+  height: auto;
+}
+
+.header-right img{
+  height: 20px;
+  width: 20px;
+}
+
+header li{
+  font-size: 14px;
+}
+
+.header-right ul{
+  display: flex;
+}
+
+.header-right ul li{
+  padding: 0 15px;
+}
+
+/* メインの背景画像
+------------------------------- */
+.bg-wrapper{
+  background-image: url(img/mainvisual-pc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+  margin: 118px 0 95px 0;
+}
+
+/* about
+------------------------------- */
+.about-wrapper{
+  margin-bottom: 140px;
+  text-align: justify;
+}
+
+.about-text p{
+  padding-bottom: 38px;
+}
+
+.info{
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* works
+------------------------------- */
+.works-wrapper{
+  margin-bottom: 136px;
+}
+
+.img-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-wrapper img{
+  width: 31%;
+  padding-bottom: 30px;
+}
+
+/* news
+------------------------------- */
+.news-wrapper{
+  margin-bottom: 140px;
+}
+
+.article{
+  border-top: solid 1px #c8c8c8;
+}
+
+.article1{
+  border-top: solid 1px #c8c8c8;
+  border-bottom: solid 1px #c8c8c8;
+}
+
+.news-wrapper span{
+  font-size: 15px;
+  line-height: 4;
+  padding-left: 45px;
+}
+
+/* contact-wrapper */
+.contact-wrapper{
+  margin-bottom: 132px;
+}
+
+.input{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input input {
+  border: 1px solid #c8c8c8;
+  width: 83%;
+  height: 45px;
+  padding: 0.7em;
+}
+
+.message{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+  
+}
+
+.message textarea {
+  padding: 0.7em;
+  width: 83%;
+  border: 1px solid #c8c8c8;
+  
+}
+
+.send{
+  background-color: #24292E;
+  width: 200px;
+  height: 53px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+button {
+  width: 200px;
+  height: 53px;
+  color: #fff;
+}
+
+.send:hover{
+  border: 1px solid #161616;
+  background-color: #fff;
+}
+
+.send button:hover{
+  color: #161616;
+}
+
+/* footer
+------------------------------- */
+footer{
+  background-color: #24292E;
+}
+
+footer .container{
+  text-align: center;
+}
+
+footer p{
+  color: #fff;
+  font-size: 10px;
+  padding: 12px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+@media (max-width: 766px){
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .title{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  /* ヘッダー
+------------------------------- */
+  header .container{
+    flex-flow: column;
+    margin-top: 30px;
+  }
+
+  .header-right{
+    margin: 18px 0;
+  }
+  /* メインのbg部分
+------------------------------- */
+.bg-wrapper{
+  text-align: center;
+  margin: 0 0 95px 0;
+}
+
+
+
+/* about */
+.about-wrapper{
+  margin-bottom: 30px;
+}
+
+/* works */
+.works-wrapper{
+  margin-bottom: 105px;
+}
+
+.img-wrapper{
+  margin-top: 48px;
+}
+
+.img-wrapper img{
+  width: 100%;
+}
+
+/* news */
+.news-wrapper{
+  margin-bottom: 80px;
+}
+
+.news-wrapper span{
+  display: block;
+  line-height: 2;
+}
+
+/* contact */
+.contact-wrapper{
+  margin-bottom: 80px;
+}
+
+.input{
+  flex-flow: column;
+}
+
+.input input {
+  width: 100%;
+}
+
+.message{
+  flex-flow: column;
+}
+
+.message textarea {
+  width: 100%;
+}
+
+}
